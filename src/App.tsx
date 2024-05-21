@@ -1,5 +1,6 @@
-import Component from "./starter/10-tasks";
+// import Component from "./starter/08-fetch-data";
 // import Component from "./starter/05-challenge";
+import { Challenge } from "./Challenge";
 
 function App() {
   return (
@@ -36,7 +37,9 @@ function App() {
       {/* <Component /> */}
 
       {/* 10-tasks */}
-      <Component />
+      {/* <Component /> */}
+
+      {/* <Challenge /> */}
     </main>
   );
 }
