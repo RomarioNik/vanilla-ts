@@ -1,6 +1,8 @@
 // import Component from "./starter/08-fetch-data";
 // import Component from "./starter/05-challenge";
-import { Challenge } from "./Challenge";
+// import { BasicAdvanced } from "./BasicAdvanced/BasicAdvanced";
+// import { Challenge } from "./Challenge";
+import { TaskApplication } from "./TaskApplication";
 
 function App() {
   return (
@@ -40,6 +42,8 @@ function App() {
       {/* <Component /> */}
 
       {/* <Challenge /> */}
+      {/* <BasicAdvanced /> */}
+      <TaskApplication />
     </main>
   );
 }
